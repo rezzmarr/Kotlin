@@ -42,7 +42,6 @@ fun poorTranslate(sentence: String){
 
 
 
-//Outputs all prime numbers between 1 and 1000
 fun outputPrimes(){
     for(i in 2..1000){
         var divisibleCounter = 0
@@ -54,8 +53,6 @@ fun outputPrimes(){
 }
 
 
-
-//outputs FIZZ BUZZ WIZZ BOOP LOOP or combinations there of, depending if number is divisible by their key value.
 fun outputFizzBuzz(){
     var hm = hashMapOf<Int,String>()
     hm.put(2,"Fizz")
